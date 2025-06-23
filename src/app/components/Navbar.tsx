@@ -2,7 +2,6 @@
 
 import Link from "next/link";
 import emailjs from "emailjs-com";
-import { p } from "framer-motion/client";
 
 export default function Navbar() {
   const handleCVDownload = () => {
