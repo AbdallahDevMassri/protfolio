@@ -9,7 +9,7 @@ export default function Projects() {
           title="HR-Pulse Desktop App"
           description="HR management system built with Java & MySQL. Designed system architecture, created user workflows, integrated MySQL database and reporting."
           link="https://github.com/AbdallahDevMassri/Hr-pulse"
-          image="/Hr-Pulse.jpg"
+          image="/Hr-pulse.png"
         />
         <ProjectCard
           title="Object Detect Bot"

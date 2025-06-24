@@ -16,6 +16,9 @@ import {
   SiKubernetes,
   SiJenkins,
   SiSqlite,
+  SiPostgresql,
+  SiHtml5,
+  SiCss3,
 } from "react-icons/si";
 import { FaTools, FaCogs } from "react-icons/fa";
 
@@ -37,7 +40,10 @@ export default function Skills() {
         <SkillBadge name="React" icon={<FaReact />} />
         <SkillBadge name="JavaScript" icon={<SiJavascript />} />
         <SkillBadge name="TypeScript" icon={<SiTypescript />} />
+        <SkillBadge name="HTML" icon={<SiHtml5 />} />
+        <SkillBadge name="CSS" icon={<SiCss3 />} />
         <SkillBadge name="SQL" icon={<SiSqlite />} />
+        <SkillBadge name="PostgreSQL" icon={<SiPostgresql />} />
         <SkillBadge name="MongoDB" icon={<SiMongodb />} />
         <SkillBadge name="AWS" icon={<FaAws />} />
         <SkillBadge name="Docker" icon={<FaDocker />} />

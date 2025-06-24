@@ -19,8 +19,8 @@ export default function ProjectCard({
       <Image
         src={image}
         alt={title}
-        width={600}
-        height={400}
+        width={400}
+        height={200}
         className="rounded mb-4"
       />
       <h3 className="text-xl font-bold mb-2">{title}</h3>
